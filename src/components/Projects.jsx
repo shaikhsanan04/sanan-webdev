@@ -1,5 +1,16 @@
 import { useState } from 'react';
 import './Projects.css';
+import { AG } from "../assets/AG-portfolio.png"
+import { BW } from "../assets/B-W.png"
+import { BS } from "../assets/book-search.png"
+import { CNC } from "../assets/creams-cakes-laptop-mockupcc.png"
+import { DB } from "../assets/d-b.png"
+import { HS } from "../assets/hero-section.png"
+import { IF } from "../assets/image-first.png"
+import { ID } from "../assets/invoice-dashboard.png"
+import { silva } from "../assets/silva.png"
+import { tun } from "../assets/tunisia.png"
+import { tys } from "../assets/typesprint-image.png"
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState('web-design');
@@ -11,21 +22,21 @@ const Projects = () => {
         id: 1,
         title: 'Resumake AI',
         description: 'A sleek and modern SaaS Tool website with modern design elements and smooth animations.',
-        image: 'src/assets/image-first.png',
+        image: {IF},
         link: 'https://www.figma.com/design/E8XG9LGiFE1Bu6TEVBRWNq/ResuMake-AI?node-id=35-423&t=gybhTBQLVCLC1twG-0'
       },
       {
         id: 2,
         title: 'Creams N Cakes',
         description: 'An amazing portfolio website showcasing peak creativity work with their stunning cakes.',
-        image: 'src/assets/creams-cakes-laptop-mockupcc.png',
+        image: {CNC},
         link: 'https://www.figma.com/design/LDVoET6fobtM6eNN9g61HQ/creams-n-cakes?node-id=12-129&t=mPB4GzkFmtZuJdAh-0'
       },
       {
         id: 3,
         title: 'Alasa Art Studio',
         description: 'An artistic portfolio website showcasing creative work with stunning visual effects.',
-        image: 'src/assets/hero-section.png',
+        image: {HS},
         link: 'https://www.figma.com/design/CDldSY760WFfamHH1PxXUw/new-alasa?node-id=1-2&t=mPB4GzkFmtZuJdAh-0'
       },
     ],
@@ -34,21 +45,21 @@ const Projects = () => {
         id: 7,
         title: 'Bluewaters Property Dubai Landing Page',
         description: 'A professional business website built with Wix featuring custom styling and smooth parallax effect.',
-        image: 'src/assets/B-W.png',
+        image: {BW},
         link: 'https://www.tlreproperties.site/bluewaters-island-b2-510'
       },
       {
         id: 8,
         title: 'Silva Property Landing Page',
         description: 'A Sleek and professional landing page made in WordPress for a Dubai Property',
-        image: 'src/assets/silva.png',
+        image: {silva},
         link: 'https://theluxuryrealestate.ae/silva-by-emaar/'
       },
       {
         id: 9,
         title: 'Tunisia Roadshow Landing Page',
         description: 'A Landing page made for Tunisia Roadshow, Showcasing why one should abuy a property in Dubai',
-        image: 'src/assets/tunisia.png',
+        image: {tun},
         link: 'https://theluxuryrealestate.ae/elementor-landing-page-33227/ '
       },
     ],
@@ -57,21 +68,21 @@ const Projects = () => {
         id: 13,
         title: 'Book Search App',
         description: 'A powerful Book Search application with over 20M+ Books.',
-        image: 'src/assets/book-search.png',
+        image: {BS},
         link: 'https://shaikhsanan04.github.io/BookSearch/'
       },
       {
         id: 14,
         title: 'Data Analyst Portfolio Website',
         description: 'A modern portfolio website for a data analyst, carefull design with modern layouts',
-        image: 'src/assets/AG-portfolio.png',
+        image: { AG },
         link: 'https://shaikhsanan04.github.io/ayaan-data-analyst-portfolio/'
       },
       {
         id: 15,
         title: 'Invoice Generator App',
         description: 'A simple and modern Invoice App to create, edit, and manage client invoices with ease.',
-        image: 'src/assets/invoice-dashbaord.png',
+        image: {ID},
         link: 'https://shaikhsanan04.github.io/Professional-Invoice-Management-App/'
       },
 
@@ -79,7 +90,7 @@ const Projects = () => {
         id: 16,
         title: 'TypeSprint',
         description: 'TypeSprint is a sleek and minimal typing speed tester that challenges your accuracy and speed in real-time.',
-        image: 'src/assets/typesprint-image.png',
+        image: {tys},
         link: 'https://shaikhsanan04.github.io/TypeSprint/'
       },
 
@@ -87,7 +98,7 @@ const Projects = () => {
         id: 17,
         title: 'Weather Dashboard',
         description: 'An interactive weather dashboard with location-based forecasts and beautiful visualizations.',
-        image: 'src/assets/d-b.png',
+        image: {DB},
         link: 'https://shaikhsanan04.github.io/weather-app/'
       },
     ]
