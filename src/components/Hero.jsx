@@ -24,7 +24,7 @@ const Hero = () => {
                 View My Projects
               </button>
               <a
-                href="/sanan-resume.pdf"
+                href= {`${import.meta.env.BASE_URL}sanan-resume.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Sanan_Shaikh_Resume.pdf"
