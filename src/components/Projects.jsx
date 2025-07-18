@@ -34,7 +34,7 @@ const Projects = () => {
         id: 7,
         title: 'Bluewaters Property Dubai Landing Page',
         description: 'A professional business website built with Wix featuring custom styling and smooth parallax effect.',
-        image: 'src/assets/BW.png',
+        image: 'src/assets/B-W.png',
         link: 'https://www.tlreproperties.site/bluewaters-island-b2-510'
       },
       {
@@ -57,21 +57,21 @@ const Projects = () => {
         id: 13,
         title: 'Book Search App',
         description: 'A powerful Book Search application with over 20M+ Books.',
-        image: 'src/assets/book search.png',
+        image: 'src/assets/book-search.png',
         link: 'https://shaikhsanan04.github.io/BookSearch/'
       },
       {
         id: 14,
         title: 'Data Analyst Portfolio Website',
         description: 'A modern portfolio website for a data analyst, carefull design with modern layouts',
-        image: 'src/assets/AG portfolio.png',
+        image: 'src/assets/AG-portfolio.png',
         link: 'https://shaikhsanan04.github.io/ayaan-data-analyst-portfolio/'
       },
       {
         id: 15,
         title: 'Invoice Generator App',
         description: 'A simple and modern Invoice App to create, edit, and manage client invoices with ease.',
-        image: 'src/assets/invoice dashbaord.png',
+        image: 'src/assets/invoice-dashbaord.png',
         link: 'https://shaikhsanan04.github.io/Professional-Invoice-Management-App/'
       },
 
@@ -79,7 +79,7 @@ const Projects = () => {
         id: 16,
         title: 'TypeSprint',
         description: 'TypeSprint is a sleek and minimal typing speed tester that challenges your accuracy and speed in real-time.',
-        image: 'src/assets/typesprint image.png',
+        image: 'src/assets/typesprint-image.png',
         link: 'https://shaikhsanan04.github.io/TypeSprint/'
       },
 
@@ -87,7 +87,7 @@ const Projects = () => {
         id: 17,
         title: 'Weather Dashboard',
         description: 'An interactive weather dashboard with location-based forecasts and beautiful visualizations.',
-        image: 'src/assets/db.png',
+        image: 'src/assets/d-b.png',
         link: 'https://shaikhsanan04.github.io/weather-app/'
       },
     ]
