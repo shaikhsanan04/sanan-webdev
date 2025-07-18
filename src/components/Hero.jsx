@@ -1,5 +1,6 @@
 import './Hero.css';
 import tempImg from '../assets/temp.png';
+import resume from 'public/sanan-resume.pdf';
 
 
 const Hero = () => {
@@ -24,7 +25,7 @@ const Hero = () => {
                 View My Projects
               </button>
               <a
-                href="/sanan resume.pdf"
+                href={resume}
                 target="_blank"
                 rel="noopener noreferrer"
                 download="Sanan_Shaikh_Resume.pdf"
