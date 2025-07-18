@@ -5,7 +5,7 @@ import  BW  from "../assets/B-W.png"
 import  BS  from "../assets/book-search.png"
 import  CNC  from "../assets/creams-cakes-laptop-mockupcc.png"
 import  DB  from "../assets/d-b.png"
-import  HS  from "../assets/hero-section.png"
+import  HSSS  from "../assets/hero-section.png"
 import  IF  from "../assets/image-first.png"
 import  ID  from "../assets/invoice-dashbaord.png"
 import  silva  from "../assets/silva.png"
@@ -36,7 +36,7 @@ const Projects = () => {
         id: 3,
         title: 'Alasa Art Studio',
         description: 'An artistic portfolio website showcasing creative work with stunning visual effects.',
-        image: HS,
+        image: HSSS,
         link: 'https://www.figma.com/design/CDldSY760WFfamHH1PxXUw/new-alasa?node-id=1-2&t=mPB4GzkFmtZuJdAh-0'
       },
     ],
