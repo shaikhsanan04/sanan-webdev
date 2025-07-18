@@ -1,4 +1,6 @@
 import './Hero.css';
+import tempImg from '../assets/temp.png';
+
 
 const Hero = () => {
   const scrollToProjects = () => {
@@ -21,7 +23,7 @@ const Hero = () => {
               <button className="btn btn-primary" onClick={scrollToProjects}>
                 View My Projects
               </button>
-              <a 
+              <a
                 href="/sanan resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -32,11 +34,11 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          
+
           <div className="hero-image slide-in-right">
             <div className="image-container">
-              <img 
-                src="src/assets/temp.png"
+              <img
+                src={tempImg}
                 alt="Sanan Shaikh"
                 className="profile-image"
               />
