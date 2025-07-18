@@ -36,7 +36,7 @@ const Hero = () => {
           <div className="hero-image slide-in-right">
             <div className="image-container">
               <img 
-                src="src/assets/linkedin-profile-picture.png"
+                src="src/assets/temp.png"
                 alt="Sanan Shaikh"
                 className="profile-image"
               />
