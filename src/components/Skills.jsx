@@ -16,8 +16,7 @@ const Skills = () => {
     { name: 'Responsive Design', icon: 'fas fa-mobile-alt', color: '#3B82F6' },
     { name: 'Flask', icon: 'fas fa-server', color: '#000000' },
     { name: 'PHP', icon: 'fab fa-php', color: '#777BB4' },
-    { name: 'WIX', icon: 'fas fa-paint-brush', color: '#0C6EBD' },
-    { name: 'Tailwind CSS', icon: 'fab fa-css3-alt', color: '#06B6D4' }
+    { name: 'WIX', icon: 'fas fa-paint-brush', color: '#0C6EBD' }
   ];
 
   return (
