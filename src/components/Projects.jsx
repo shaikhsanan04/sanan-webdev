@@ -11,6 +11,7 @@ import ID from "../assets/invoice-dashbaord.png"
 import silva from "../assets/silva.png"
 import tun from "../assets/tunisia.png"
 import tys from "../assets/typesprint-image.png"
+import ami from "../assets/ami.png"
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState('web-design');
@@ -98,7 +99,7 @@ const Projects = () => {
         id: 17,
         title: 'Arafat - cyber-Security Analyst Portfolio',
         description: 'A modern portfolio website for a cybersecurity analyst, carefully designed with modern layouts.',
-        image: tys,
+        image: ami,
         link: 'https://shaikhsanan04.github.io/arafat-cyber-security-analyst-portfolio/'
       },
 
