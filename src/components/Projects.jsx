@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import './Projects.css';
-import  AG  from "../assets/AG-portfolio.png"
-import  BW  from "../assets/B-W.png"
-import  BS  from "../assets/book-search.png"
-import  CNC  from "../assets/creams-cakes-laptop-mockupcc.png"
-import  DB  from "../assets/d-b.png"
-import  HSSS  from "../assets/alasa.png"
-import  IF  from "../assets/image-first.png"
-import  ID  from "../assets/invoice-dashbaord.png"
-import  silva  from "../assets/silva.png"
-import  tun  from "../assets/tunisia.png"
-import  tys  from "../assets/typesprint-image.png"
+import AG from "../assets/AG-portfolio.png"
+import BW from "../assets/B-W.png"
+import BS from "../assets/book-search.png"
+import CNC from "../assets/creams-cakes-laptop-mockupcc.png"
+import DB from "../assets/d-b.png"
+import HSSS from "../assets/alasa.png"
+import IF from "../assets/image-first.png"
+import ID from "../assets/invoice-dashbaord.png"
+import silva from "../assets/silva.png"
+import tun from "../assets/tunisia.png"
+import tys from "../assets/typesprint-image.png"
 
 const Projects = () => {
   const [activeTab, setActiveTab] = useState('web-design');
@@ -74,8 +74,8 @@ const Projects = () => {
       {
         id: 14,
         title: 'Data Analyst Portfolio Website',
-        description: 'A modern portfolio website for a data analyst, carefull design with modern layouts',
-        image:  AG ,
+        description: 'A modern portfolio website for a data analyst, carefully designed with modern layouts',
+        image: AG,
         link: 'https://shaikhsanan04.github.io/ayaan-data-analyst-portfolio/'
       },
       {
@@ -96,6 +96,14 @@ const Projects = () => {
 
       {
         id: 17,
+        title: 'Arafat - cyber-Security Analyst Portfolio',
+        description: 'A modern portfolio website for a cybersecurity analyst, carefully designed with modern layouts.',
+        image: tys,
+        link: 'https://shaikhsanan04.github.io/arafat-cyber-security-analyst-portfolio/'
+      },
+
+      {
+        id: 18,
         title: 'Weather Dashboard',
         description: 'An interactive weather dashboard with location-based forecasts and beautiful visualizations.',
         image: DB,
